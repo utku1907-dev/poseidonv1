@@ -1,0 +1,21 @@
+{
+    "scopeName": "source.poseidon",
+    "patterns": [
+        {
+            "match": "\\b(yaz|eger|degilse)\\b",
+            "name": "keyword.control.poseidon"
+        },
+        {
+            "match": "\\b\\d+(\\.\\d+)?\\b",
+            "name": "constant.numeric.poseidon"
+        },
+        {
+            "match": "\".*?\"",
+            "name": "string.quoted.double.poseidon"
+        },
+        {
+            "match": "\\b[A-Za-z_][A-Za-z0-9_]*\\s*(?==)",
+            "name": "variable.other.poseidon"
+        }
+    ]
+}

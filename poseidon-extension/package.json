@@ -1,0 +1,26 @@
+{
+    "name": "poseidon-language",
+    "displayName": "Poseidon",
+    "description": "Poseidon programming language",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.80.0"
+    },
+    "contributes": {
+        "languages": [
+            {
+                "id": "poseidon",
+                "aliases": ["Poseidon"],
+                "extensions": [".pos"],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "poseidon",
+                "scopeName": "source.poseidon",
+                "path": "./syntaxes/poseidon.tmLanguage.json"
+            }
+        ]
+    }
+}

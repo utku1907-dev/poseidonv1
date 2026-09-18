@@ -1,0 +1,8 @@
+pencere "Poseidon Oyunum" {
+    resim "ab.png"
+    metin "Hazır mısın?"
+
+    buton "BAŞLA" {
+        yaz "OYUN BAŞLADI!"
+    }
+}
